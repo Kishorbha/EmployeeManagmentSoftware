@@ -28,8 +28,12 @@ export const Home = () => {
           <h2>{ctime}</h2>
         </div>
 
-        <Button variant="outlined" color="secondary">
-          <Phone /> New Meeting
+        <Button
+          variant="outlined"
+          color="primary"
+          style={{ textTransform: "capitalize" }}
+        >
+          <Phone style={{ marginRight: "10px", color: "green" }} /> New Meeting
         </Button>
       </div>
       <Footer />
