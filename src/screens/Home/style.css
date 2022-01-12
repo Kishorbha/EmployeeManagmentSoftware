@@ -1,0 +1,9 @@
+.Home__container {
+  background-color: #d1d9dd;
+  text-align: center;
+  height: 55vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}

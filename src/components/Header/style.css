@@ -1,0 +1,38 @@
+.Nav__container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 100px;
+  align-items: center;
+}
+
+.Nav__container__logo {
+  max-width: 220px;
+  object-fit: cover;
+}
+
+.Nav__contianer__right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  color: grey;
+}
+
+.social__icons {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  gap: 1rem;
+}
+
+.social__icons li :hover {
+  color: #2379eb;
+  cursor: pointer;
+}
+
+.Nav__container__right__logo__profile {
+  max-width: 40px;
+  border-radius: 100%;
+  object-fit: cover;
+  object-position: top;
+}

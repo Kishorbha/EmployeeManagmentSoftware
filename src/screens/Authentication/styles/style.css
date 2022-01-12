@@ -1,0 +1,121 @@
+.authentication__container {
+  margin-top: 100px;
+  padding: 0 10vw;
+  max-height: 60vh;
+}
+
+.authentication__container .login__container {
+  margin: 160px auto 90px auto;
+  border-radius: 10px;
+}
+.authentication__container .login__container .login__container__loginForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.authentication__container
+  .login__container
+  .login__container__loginForm
+  ul
+  li {
+  margin-right: 15px;
+}
+.authentication__container
+  .login__container
+  .login__container__loginForm
+  ul
+  li
+  a {
+  text-decoration: none;
+  color: #000;
+}
+.authentication__container
+  .login__container
+  .login__container__loginForm
+  ul
+  li
+  a
+  i {
+  font-size: 22px;
+}
+.authentication__container
+  .login__container
+  .login__container__loginForm
+  ul
+  li:last-child {
+  margin-right: 0;
+}
+.authentication__container .login__container .login__container__loginForm span {
+  margin-bottom: 20px;
+  color: #8a8a8a;
+}
+.authentication__container .login__container .login__container__loginForm form {
+  display: flex;
+  flex-direction: column;
+}
+.authentication__container
+  .login__container
+  .login__container__loginForm
+  form
+  label {
+  margin-bottom: 10px;
+}
+.authentication__container
+  .login__container
+  .login__container__loginForm
+  form
+  input {
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.authentication__container
+  .login__container
+  .login__container__loginForm
+  form
+  input.input__text {
+  width: 28vw;
+}
+.authentication__container
+  .login__container
+  .login__container__loginForm
+  form
+  button {
+  padding: 13px 0;
+  background: rgb(18, 116, 237);
+  border: none;
+  outline: none;
+  color: #fff;
+}
+.authentication__container .login__container .login__container__loginForm a {
+  color: rgb(18, 116, 237);
+  text-decoration: none;
+}
+.authentication__container
+  .login__container
+  .login__container__loginForm
+  .extra {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.authentication__container
+  .login__container
+  .login__container__loginForm
+  .register {
+  margin-top: 20px;
+}
+.authentication__container
+  .login__container
+  .login__container__loginForm
+  .register
+  button {
+  background: transparent;
+  border: none;
+  color: #2ecc71;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */
