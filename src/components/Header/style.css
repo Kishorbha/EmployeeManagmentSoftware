@@ -1,3 +1,12 @@
+nav {
+  position: fixed;
+  background-color: #fff;
+  z-index: 1;
+  top: 0;
+  width: 100%;
+  height: 70px;
+}
+
 .Nav__container {
   display: flex;
   justify-content: space-between;
@@ -27,12 +36,52 @@
 
 .social__icons li :hover {
   color: #2379eb;
-  cursor: pointer;
 }
 
 .Nav__container__right__logo__profile {
-  max-width: 40px;
+  max-width: 30px;
   border-radius: 100%;
   object-fit: cover;
   object-position: top;
+}
+
+.social__icons__icons__wrap {
+  position: relative;
+}
+
+.icon__support__desciption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  visibility: hidden;
+  text-transform: capitalize;
+}
+
+.social__icons__icons__wrap:hover .icon__support__desciption {
+  visibility: visible;
+  opacity: 1;
+  color: black;
+}
+
+@media (max-width: 800px) {
+  .Nav__container {
+    padding: 10px;
+  }
+
+  .Nav__container__logo {
+    max-width: 120px;
+  }
+
+  .date {
+    display: none;
+  }
+
+  .social__icons {
+    display: none;
+  }
+  .Nav__container__right__logo__profile {
+    max-width: 50px;
+  }
 }
